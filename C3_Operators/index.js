@@ -88,3 +88,11 @@
 let user="Akarsh";
 let result = user ?? "guest"
 console.log(result)
+
+
+// console.log(7%2)
+
+console.log(false&&true||false)
+
+
+!= !==.  !true. !false

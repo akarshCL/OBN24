@@ -9,7 +9,7 @@
 // // console.log(Math.abs(n1),"abs")
 // // console.log(Math.abs(n2),"abs")
 
-// // console.log(Math.pow(2,3))
+// // console.log(Math.pow(2,3)) 2**3
 // // console.log(Math.pow(5,3))
 // // console.log(Math.pow(-5,3))
 // // console.log(2**3)
@@ -37,7 +37,9 @@
 
 // // console.log(Math.sqrt(25))
 // // console.log(Math.cbrt(125))
-
+let a=10;
+let b="30";
+console.log(a+(+b))
 
 // if(true){
 // console.log("hello guys welcome to accioJob powered by Founder ")
@@ -68,9 +70,11 @@
 // }
 
 // number  is 15 so u have to check whether a number is divisible by 3 and 5 or not 
-let n=16;
-if(n%3===0 && n%5===0){
-    console.log("hurrry!!!! the number is divisible by both")
-}else{
-    console.log("Opps!!! not divisible by both")
-}
+// let n=16;
+// if(n%3===0 && n%5===0){
+//     console.log("hurrry!!!! the number is divisible by both")
+// }else{
+//     console.log("Opps!!! not divisible by both")
+// }
+
+
