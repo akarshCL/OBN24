@@ -1,111 +1,197 @@
 
 
-// // let num=6;
-// // let isPrime=true;
-// // if(num<=1){
-// // isPrime=false;
-// // }else{
+// // // // // let num=6;
+// // // // // let isPrime=true;
+// // // // // if(num<=1){
+// // // // // isPrime=false;
+// // // // // }else{
 
-// //     for(let i=2;i<num;i++){
-// //         if(num%i==0){
-// //             isPrime=false;
-// //             break;
-// //         }
+// // // // //     for(let i=2;i<num;i++){
+// // // // //         if(num%i==0){
+// // // // //             isPrime=false;
+// // // // //             break;
+// // // // //         }
+// // // // //     }
+
+// // // // // }
+
+// // // // // if(isPrime){
+// // // // //     console.log("its a prime number")
+// // // // // }else{
+// // // // //     console.log("its not a prime number")
+// // // // // }
+
+
+
+// // // // // let num=1234;
+// // // // // // result= 4321;
+
+// // // // // // lastdigit= num%10= 4
+// // // // // // modify num
+// // // // // // num = Math.floor(num/10); 123
+// // // // // // last 2nd= num%10== 3
+// // // // // //num =Math.floor(num/10); == 12
+// // // // // // last3rd digit=num%10 ==2
+// // // // // // num=Math.floor(num/10); 1
+// // // // // // first digit = num%10==1
+
+
+// // // // // 4*1000=4000
+
+// // // // // 3*100=300
+// // // // // 2*10=20
+// // // // // 1
+// // // // // 4321
+
+// // // // // let num=5
+// // // // // while(num>0){
+// // // // //     console.log("hello",num);
+// // // // //     num=num-1
+// // // // // }
+
+
+// // // // // let num=1
+// // // // // while(num<=5){
+// // // // //     console.log("hello",num);
+// // // // //     num=num+1
+// // // // // }
+
+// // // // // // result= 4321;
+
+// // // // // // lastdigit= num%10= 4
+// // // // // // modify num
+// // // // // // num = Math.floor(num/10); 123
+// // // // // // last 2nd= num%10== 3
+// // // // // //num =Math.floor(num/10); == 12
+// // // // // // last3rd digit=num%10 ==2
+// // // // // // num=Math.floor(num/10); 1
+// // // // // // first digit = num%10==1
+
+
+// // // // // 4*1000=4000cd 
+
+// // // // // 3*100=300
+// // // // // 2*10=20
+// // // // // 1
+// // // // // 4321
+// // // // let num=121345;
+// // // // let k=1;
+// // // // let temp=num;
+// // // // let rev=0;
+// // // // while(num>0){
+// // // // let lastdigit=num%10;
+// // // // rev=rev*10+lastdigit
+// // // // num=Math.floor(num/10)
+// // // // }
+
+// // // // console.log(rev)
+
+// // // // if(temp==rev){
+// // // //     console.log("its a palidrome")
+// // // // }else{
+// // // //      console.log("its not a palidrome")
+// // // // }
+
+// // // // let num=12322221112;
+// // // // let k=2;
+// // // // let count=0;
+// // // // while(num>0){
+
+// // // //     let lD=num%10;
+// // // //     if(lD==k){
+// // // //        count++; 
+// // // //     }
+// // // //     num=Math.floor(num/10)
+
+// // // // }
+
+// // // // console.log(count)
+
+// // // // find the number is a armstrong or not
+
+
+
+// // // let num=153// 1**3 5**3 3**3;
+// // // let temp =num;
+// // // let temp2=num;
+// // // let digitPower=0;
+// // // let sum=0;
+// // // while(num>0){
+// // // num=Math.floor(num/10);
+// // // digitPower++;
+// // // }
+
+// // // console.log(digitPower,temp);
+
+
+// // // while(temp>0){
+// // //     let ld=temp%10;
+// // //     sum=sum+(ld**digitPower)
+// // //    temp=Math.floor(temp/10); 
+// // // }
+// // // if(temp2==sum){
+// // //     console.log("armstrong")
+// // // }else{
+// // //     console.log("not a armstrong")
+// // // }
+
+// // // // console.log(sum,"sum")
+// // // let num=5
+
+// // // // while(num>0){
+// // // //      console.log("hello its running for while loop time",num)
+// // // // num--
+
+// // // // }
+
+
+
+
+// // // do{
+// // //     console.log("hello its running for do while loop  time",num)
+// // //     num--
+// // // }while(num>0);
+
+// // let choice;
+// // do{
+// //     console.log("withdraw the money");
+// //     console.log("mini statement");
+// //     console.log("check balance");
+// //     console.log("generate PIN");
+
+// //     choice =4;
+// //     if(choice==1){
+// //          console.log("withdraw the money successfully");
+// //     }else if(choice ==2){
+// //          console.log("mini statement printed!!");
+// //     }else if(choice==3){
+// //          console.log("check balance successfully");
+// //     }else if(choice==4){
+// //         console.log("pn has been changed")
+// //     }else{
+// //         console.log("invalid input")
 // //     }
 
-// // }
-
-// // if(isPrime){
-// //     console.log("its a prime number")
-// // }else{
-// //     console.log("its not a prime number")
-// // }
+// // }while(choice!=4)
 
 
 
-// // let num=1234;
-// // // result= 4321;
-
-// // // lastdigit= num%10= 4
-// // // modify num
-// // // num = Math.floor(num/10); 123
-// // // last 2nd= num%10== 3
-// // //num =Math.floor(num/10); == 12
-// // // last3rd digit=num%10 ==2
-// // // num=Math.floor(num/10); 1
-// // // first digit = num%10==1
-
-
-// // 4*1000=4000
-
-// // 3*100=300
-// // 2*10=20
-// // 1
-// // 4321
-
-// // let num=5
-// // while(num>0){
-// //     console.log("hello",num);
-// //     num=num-1
-// // }
-
-
-// // let num=1
-// // while(num<=5){
-// //     console.log("hello",num);
-// //     num=num+1
-// // }
-
-// // // result= 4321;
-
-// // // lastdigit= num%10= 4
-// // // modify num
-// // // num = Math.floor(num/10); 123
-// // // last 2nd= num%10== 3
-// // //num =Math.floor(num/10); == 12
-// // // last3rd digit=num%10 ==2
-// // // num=Math.floor(num/10); 1
-// // // first digit = num%10==1
-
-
-// // 4*1000=4000cd 
-
-// // 3*100=300
-// // 2*10=20
-// // 1
-// // 4321
-// let num=121345;
-// let k=1;
-// let temp=num;
-// let rev=0;
-// while(num>0){
-// let lastdigit=num%10;
-// rev=rev*10+lastdigit
-// num=Math.floor(num/10)
-// }
-
-// console.log(rev)
-
-// if(temp==rev){
-//     console.log("its a palidrome")
-// }else{
-//      console.log("its not a palidrome")
-// }
-
-// let num=12322221112;
-// let k=2;
-// let count=0;
-// while(num>0){
-
-//     let lD=num%10;
-//     if(lD==k){
-//        count++; 
+// for(let i=0;i<=5;i++){
+//      console.log(i)
+//     if(i==3){
+//         continue;
 //     }
-//     num=Math.floor(num/10)
 
 // }
 
-// console.log(count)
+console.log(a);
+var a = 30;
+console.log(a);
+if (a == 30) {
+    let c = 50;
+    console.log(c)
+} else {
+    a = 50;
 
-// find the number is a armstrong or not
-
+}
+console.log(a)
